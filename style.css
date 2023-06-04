@@ -1,35 +1,29 @@
 .icon_container1:hover,
 .icon_container2:hover,
-.icon_container3:hover {
+.icon_container3:hover,
+footer img:hover {
   transform: scale(1.2);
 }
- 
- /* slider icon op */
  .icon_container1, .icon_container2, .icon_container3 {
    transition: 0.25s ease;
    position: absolute;
    width: 10%;
    aspect-ratio: 1/1;
  }
-
  .icon_sprite1, .icon_sprite2, .icon_sprite3 {
    width: 100%;
    height: 100%;
    background-size: 100%;
  }
-
  .icon_sprite1 {
    background-image: url(img/forside.svg);
  }
-
  .icon_sprite2 {
    background-image: url(img/portfolio.svg);
  }
-
  .icon_sprite3 {
    background-image: url(img/ommig.svg);
  }
-
  .list {
    list-style-type: none;
    width: 100%;
@@ -39,8 +33,6 @@
    margin: 0;
    padding: 0;
  }
-
- /* fucker med alt hvis slettet */
  .link {
    font-size: 5cqw;
    display: flex;
@@ -49,8 +41,6 @@
    overflow: hidden;
    cursor: pointer;
  }
-
- /* fjerner tekst på ikke aktive og tekst generelt */
  .text {
    position: absolute;
    transform: translateY(45px);
@@ -59,14 +49,10 @@
    transition: 0.25s ease;
    padding-top: 9px;
  }
-
- /* fjerner icon når tekst kommer */
  .link.active .icon_container1, .link.active .icon_container2, .link.active .icon_container3{
    transform: translateY(-40px);
    opacity: 0;
  }
- 
- /* teksten */
  .link.active .text {
    opacity: 100%;
    transform: translateY(0px);
@@ -77,27 +63,46 @@
    position: sticky;
    top: 0;
  }
+ main {
+   max-width: 800px;
+   margin-left: auto;
+   margin-right: auto;
+ }
  body {
    background-color:hsl(0, 0%, 95%);
    margin: 0;
  }
-li a {
-   color: hsl(100, 30%, 85%);
-   text-decoration: none;
-}
-p, h1 {
+ h1 {
+   text-align: center;
+   padding-top: 15px;
+ }
+ h2 img {
+   width: 6%;
+   padding-left: 8px;
+ }
+p, h1, h2 {
    color: hsl(100, 25%, 15%);
+}
+p, h2 {
+   margin: 20px;
 }
 footer {
 background-color: hsl(122, 14%, 57%);
 padding: 5px;
 text-align: center;
-margin: 0;
+margin-top: 40px;
+line-height: 25%;
+padding-block-start: 20px;
 }
-footer p {
+footer p, a {
    color: hsl(100, 30%, 85%);
+   text-decoration: none;
+margin-right: 30px;
+margin-left: 30px;
 }
-
+footer img{
+   width: 5.5%;
+}
 @media (min-width: 700px) {
 .link {
   font-size: 30px;
@@ -106,4 +111,12 @@ footer p {
 .icon_container1, .icon_container2, .icon_container3 {
    position: absolute;
    width: 4.5%;
-}}
+}
+h2 img {
+   width: 3.5%;
+   padding-left: 8px;
+ }
+ footer img{
+   width: 2.5%;
+}
+}
