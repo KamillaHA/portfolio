@@ -9,6 +9,8 @@ links.forEach(link => {
         active.classList.remove('active');
       }
       link.classList.add('active');
+      const href = link.getAttribute('href');
+      window.location.href = href;
     }
   });
 });

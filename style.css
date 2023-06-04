@@ -1,26 +1,9 @@
-/* får dem vandret i stedet for lodret */
- @media (max-width: 700px) {
-.list {
-   list-style-type: none;
-   width: 100%;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   margin: 0;
-   padding: 0;
-
- }
-
- /* fucker med alt hvis slettet */
- .link {
-   font-size: 5cqw;
-   color: #000000;
-   display: flex;
-   justify-content: center;
-   padding: 20px 55px;
-   overflow: hidden;
-   cursor: pointer;
- }
+.icon_container1:hover,
+.icon_container2:hover,
+.icon_container3:hover {
+  transform: scale(1.2);
+}
+ 
  /* slider icon op */
  .icon_container1, .icon_container2, .icon_container3 {
    transition: 0.25s ease;
@@ -47,11 +30,31 @@
    background-image: url(img/ommig.svg);
  }
 
+ .list {
+   list-style-type: none;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 0;
+   padding: 0;
+ }
+
+ /* fucker med alt hvis slettet */
+ .link {
+   font-size: 5cqw;
+   display: flex;
+   justify-content: center;
+   padding: 20px 55px;
+   overflow: hidden;
+   cursor: pointer;
+ }
+
  /* fjerner tekst på ikke aktive og tekst generelt */
  .text {
    position: absolute;
    transform: translateY(45px);
-   color: #000000;
+   color: hsl(100, 30%, 85%);
    opacity: 0;
    transition: 0.25s ease;
    padding-top: 9px;
@@ -62,10 +65,45 @@
    transform: translateY(-40px);
    opacity: 0;
  }
-
+ 
  /* teksten */
  .link.active .text {
    opacity: 100%;
    transform: translateY(0px);
  }
+ header {
+   padding-bottom: 50px;
+   background-color: hsl(122, 14%, 57%);
+   position: sticky;
+   top: 0;
  }
+ body {
+   background-color:hsl(0, 0%, 95%);
+   margin: 0;
+ }
+li a {
+   color: hsl(100, 30%, 85%);
+   text-decoration: none;
+}
+p, h1 {
+   color: hsl(100, 25%, 15%);
+}
+footer {
+background-color: hsl(122, 14%, 57%);
+padding: 5px;
+text-align: center;
+margin: 0;
+}
+footer p {
+   color: hsl(100, 30%, 85%);
+}
+
+@media (min-width: 700px) {
+.link {
+  font-size: 30px;
+  padding: 25px 150px;
+}
+.icon_container1, .icon_container2, .icon_container3 {
+   position: absolute;
+   width: 4.5%;
+}}
