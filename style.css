@@ -74,7 +74,8 @@ footer img:hover {
  }
  h1 {
    text-align: center;
-   padding-top: 15px;
+   padding-top: 35px;
+   padding-bottom: 20px;
  }
  h1 img {
 padding-top: 50%;
@@ -90,32 +91,33 @@ p, h1, h2, h2 a {
 p, h2 {
    margin: 20px;
 }
-h2 a {
-  padding-top: 10px;
-  padding-bottom: 6px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.grid_1-1-1-1 {
-  text-align: center;
-  justify-content: center;
-  display: flex;
-  margin-top: 50px;
-}
-h2 a:hover {
+h3:hover {
   background-color: hsl(122, 14%, 57%);
   color: hsl(0, 0%, 95%);
   border-radius: 15px;
 }
+h3 {
+  padding-top: 10px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+margin-top: 61px;
+margin-bottom: 61px;
+text-align: center;
+font-size: 30px;
+}
+img {
+  width: 100%;
+  height: auto;
+}
 footer {
    background-color: hsl(122, 14%, 57%);
-   padding: 5px;
    text-align: center;
-   margin-top: 40px;
-   line-height: 25%;
-   padding-block-start: 20px;
-   position:sticky;
+   line-height: 5%;
+   padding-block-start: 15px;
+   padding-block-end: 15px;
    bottom: 0;
+   margin-top: 20px;
 }
 footer p, a {
    color: hsl(100, 30%, 85%);
@@ -145,4 +147,26 @@ h2 img {
 h1 img {
   padding: 40px;
 }
+section {
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  }
+  .grid_1-2-1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+  .grid_1-2-1 img {
+    width: 100%;
+    height: auto;
+    grid-column: 2;
+  }
+  .grid_2-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .grid_2-1 img {
+    width: 100%;
+    height: auto;
+  }
 }
