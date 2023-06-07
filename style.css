@@ -77,17 +77,35 @@ footer img:hover {
    padding-top: 15px;
  }
  h1 img {
-   padding: 40px;
+padding-top: 50%;
+padding-bottom: 50%;
  }
  h2 img {
    width: 6%;
    padding-left: 8px;
  }
-p, h1, h2 {
+p, h1, h2, h2 a {
    color: hsl(100, 25%, 15%);
 }
 p, h2 {
    margin: 20px;
+}
+h2 a {
+  padding-top: 10px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.grid_1-1-1-1 {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+}
+h2 a:hover {
+  background-color: hsl(122, 14%, 57%);
+  color: hsl(0, 0%, 95%);
+  border-radius: 15px;
 }
 footer {
    background-color: hsl(122, 14%, 57%);
@@ -96,6 +114,8 @@ footer {
    margin-top: 40px;
    line-height: 25%;
    padding-block-start: 20px;
+   position:sticky;
+   bottom: 0;
 }
 footer p, a {
    color: hsl(100, 30%, 85%);
@@ -121,5 +141,8 @@ h2 img {
  }
  footer img{
    width: 2.5%;
+}
+h1 img {
+  padding: 40px;
 }
 }
