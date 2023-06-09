@@ -1,4 +1,3 @@
-
 // find knappen
 let mybutton = document.getElementById("myBtn");
 
