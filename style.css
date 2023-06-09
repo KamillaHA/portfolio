@@ -54,7 +54,7 @@ h2 img {
   padding-left: 8px;
 }
 p, h2, h3 {
-  color: hsl(100, 25%, 15%);
+  color: rgb(35, 48, 29);
   margin: 20px;
 }
 img {
@@ -87,7 +87,7 @@ footer img{
   right: 15px;
   z-index: 99;
   border: none;
-  background-color: hsl(100, 30%, 85%);
+  background-color: hsl(99, 30%, 85%);
   cursor: pointer;
   padding: 12px;
   border-radius: 25px;
