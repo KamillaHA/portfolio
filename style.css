@@ -1,65 +1,3 @@
-/* .icon_container1:hover,
-.icon_container2:hover,
-.icon_container3:hover,
-footer img:hover {
-  transform: scale(1.2);
-}
- .icon_container1, .icon_container2, .icon_container3 {
-   transition: 0.25s ease;
-   position: absolute;
-   width: 10%;
-   aspect-ratio: 1/1;
- }
- .icon_sprite1, .icon_sprite2, .icon_sprite3 {
-   width: 100%;
-   height: 100%;
-   background-size: 100%;
- }
- .icon_sprite1 {
-   background-image: url(img/forside.svg);
- }
- .icon_sprite2 {
-   background-image: url(img/portfolio.svg);
- }
- .icon_sprite3 {
-   background-image: url(img/ommig.svg);
- }
- .list {
-   list-style-type: none;
-   width: 100%;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   margin: 0;
-   padding: 0;
- }
- .link {
-   font-size: 5cqw;
-   display: flex;
-   justify-content: center;
-   padding: 20px 55px;
-   overflow: hidden;
-   cursor: pointer;
- }
- .text {
-   position: absolute;
-   transform: translateY(45px);
-   color: hsl(100, 30%, 85%);
-   opacity: 0;
-   transition: 0.25s ease;
-   padding-top: 9px;
- }
- .link.active .icon_container1, .link.active .icon_container2, .link.active .icon_container3{
-   transform: translateY(-40px);
-   opacity: 0;
- }
- .link.active .text {
-   opacity: 100%;
-   transform: translateY(0px);
- } */
-
-
-
 nav {
 margin: 0;
 }
@@ -178,15 +116,6 @@ footer img{
 }
 
 @media (min-width: 700px) {
-/* .link {
-  font-size: 30px;
-  padding: 25px 150px;
-}
-.icon_container1, .icon_container2, .icon_container3 {
-   position: absolute;
-   width: 4.5%;
-} */
-
 nav {
   margin: 0;
   }
