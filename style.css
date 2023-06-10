@@ -49,13 +49,17 @@ h1 img {
   padding-bottom: 50%;
   margin: 0;
 }
-h2 img {
+h2 img,
+h3 img {
   width: 6%;
   padding-left: 8px;
 }
 p, h2, h3 {
   color: rgb(35, 48, 29);
   margin: 20px;
+}
+h2 {
+  padding-top: 20px;
 }
 img {
   width: 100%;
@@ -126,12 +130,16 @@ footer img{
     padding-top: 35px;
     padding-bottom: 20px;
   }
+  h2 {
+    padding-top: 40px;
+  }
   h1 img {
     padding-top: 0;
     padding-bottom: 0;
     width: 100%;
   }
-  h2 img {
+  h2 img,
+  h3 img {
     width: 3.5%;
   }
   footer img{
