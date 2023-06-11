@@ -24,7 +24,7 @@ li {
   flex: 1;
   font-size: 18px;
 }
-figcaption a {
+figure a {
   color: hsl(100, 25%, 15%);
   background-color: hsl(100, 30%, 85%);
   padding: 5px;
@@ -34,7 +34,7 @@ figcaption a {
   margin-left: 0;
   font-size: 12px;
 }
-figcaption a:hover {
+figure a:hover {
   background-color: hsl(122, 14%, 57%);
 }
 li img {
@@ -127,7 +127,7 @@ footer img{
   background-color: hsl(122, 14%, 57%);
 }
 #myBtn img {
-  width: 3.5cqw;
+  width: 1em;
   height: auto;
 }
 
@@ -231,6 +231,6 @@ footer img{
       right: 25px;
     }
     #myBtn img {
-      width: 2.5cqw;
+      width: 2em;
     }
 }
